@@ -1,0 +1,120 @@
+** Drc report for STM32F103_Custom.kicad_pcb **
+** Created on 2026-08-27T20:57:47 **
+** Report includes: Errors, Warnings **
+
+** Found 32 DRC violations **
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1792 mm)
+    Rule: board setup constraints hole; error
+    @(164.4500 mm, 92.1050 mm): Pad 6 [unconnected-(J1-Shield-Pad6)] of USB on F.Cu
+    @(164.6500 mm, 91.0050 mm): NPTH pad of USB
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,1792 mm)
+    Rule: board setup constraints hole; error
+    @(164.4500 mm, 85.9050 mm): Pad 6 [unconnected-(J1-Shield-Pad6)_5] of USB on F.Cu
+    @(164.6500 mm, 87.0050 mm): NPTH pad of USB
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2000 mm)
+    Rule: board setup constraints hole; error
+    @(164.3250 mm, 87.7050 mm): Pad 5 [GND] of USB on F.Cu
+    @(164.6500 mm, 87.0050 mm): NPTH pad of USB
+[hole_clearance]: Hole clearance violation (board setup constraints hole clearance 0,2500 mm; actual 0,2000 mm)
+    Rule: board setup constraints hole; error
+    @(164.3250 mm, 90.3050 mm): Pad 1 [VBUS] of USB on F.Cu
+    @(164.6500 mm, 91.0050 mm): NPTH pad of USB
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(137.4800 mm, 96.2125 mm): Footprint C8
+[lib_footprint_mismatch]: Footprint 'LQFP-48_7x7mm_P0.5mm' does not match copy in library 'Package_QFP'
+    Local override; warning
+    @(144.3400 mm, 90.2300 mm): Footprint U1
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(147.9900 mm, 100.5000 mm): Footprint R5
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(137.5200 mm, 94.7125 mm): Footprint C7
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(163.7500 mm, 95.2500 mm): Footprint R3
+[lib_footprint_mismatch]: Footprint 'SW_SPDT_PCM12' does not match copy in library 'Button_Switch_SMD'
+    Local override; warning
+    @(122.0000 mm, 86.2500 mm): Footprint BOOT
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(150.3400 mm, 87.7300 mm): Footprint C3
+[lib_footprint_mismatch]: Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(156.4500 mm, 91.2500 mm): Footprint C12
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(137.9900 mm, 87.0800 mm): Footprint C1
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(149.9900 mm, 100.5200 mm): Footprint R4
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(135.8400 mm, 88.1800 mm): Footprint C10
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(137.8400 mm, 91.2900 mm): Footprint C6
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(127.0000 mm, 86.5000 mm): Footprint R1
+[lib_footprint_mismatch]: Footprint 'L_0603_1608Metric' does not match copy in library 'Inductor_SMD'
+    Local override; warning
+    @(139.5000 mm, 95.7125 mm): Footprint FB1
+[lib_footprint_mismatch]: Footprint 'Crystal_SMD_3225-4Pin_3.2x2.5mm' does not match copy in library 'Crystal'
+    Local override; warning
+    @(133.3400 mm, 89.1600 mm): Footprint Y1
+[lib_footprint_mismatch]: Footprint 'USB_Micro-B_XKB_U254-051T-4BH83-F1S' does not match copy in library 'Connector_USB'
+    Local override; warning
+    @(166.6100 mm, 89.0050 mm): Footprint USB
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x04_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(131.9600 mm, 105.7500 mm): Footprint J5
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(141.8400 mm, 84.2300 mm): Footprint C2
+[lib_footprint_mismatch]: Footprint 'R_0402_1005Metric' does not match copy in library 'Resistor_SMD'
+    Local override; warning
+    @(155.8100 mm, 88.2400 mm): Footprint R2
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x04_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(140.3100 mm, 76.7500 mm): Footprint J3
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(147.2500 mm, 96.2300 mm): Footprint C4
+[lib_footprint_mismatch]: Footprint 'C_0603_1608Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(141.9650 mm, 82.8100 mm): Footprint C5
+[lib_footprint_mismatch]: Footprint 'C_0805_2012Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(161.0000 mm, 97.2000 mm): Footprint C13
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x04_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(153.5800 mm, 76.7500 mm): Footprint J2
+[lib_footprint_mismatch]: Footprint 'PinHeader_1x04_P2.54mm_Vertical' does not match copy in library 'Connector_PinHeader_2.54mm'
+    Local override; warning
+    @(145.1900 mm, 105.7500 mm): Footprint J4
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(135.8400 mm, 90.1800 mm): Footprint C11
+[lib_footprint_mismatch]: Footprint 'C_0402_1005Metric' does not match copy in library 'Capacitor_SMD'
+    Local override; warning
+    @(141.4800 mm, 96.2500 mm): Footprint C9
+[lib_footprint_mismatch]: Footprint 'LED_0603_1608Metric' does not match copy in library 'LED_SMD'
+    Local override; warning
+    @(163.7500 mm, 97.5375 mm): Footprint D1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
