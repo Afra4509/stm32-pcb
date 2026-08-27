@@ -15,9 +15,6 @@ Proyek ini adalah desain custom board berbasis **STM32F103C8T6** yang disolder l
 - **Programming**: 4-pin SWD header (3V3, SWDIO, SWCLK, GND).
 - **Konektivitas**: Pin GPIO diekspos melalui header 2.54mm.
 
-## Modifikasi yang Diperlukan (Tugas Lanjutan di KiCad)
-Karena keterbatasan AI dalam membuat dan menempatkan footprint serta UUID dalam format S-Expression KiCad, Anda perlu melakukan beberapa modifikasi di KiCad Editor untuk memenuhi desain akhir:
-
 ### 1. Mengganti USB Micro-B ke USB-C
 Secara default, skematik ini menggunakan **USB Micro-B**. Untuk mengubahnya ke **USB-C**:
 1. Buka `STM32F103_Custom.kicad_sch` di KiCad.
